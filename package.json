@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Create React App + Tailwind + Storybook",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "dependencies": {
     "react": "17.0.2",
@@ -14,11 +14,15 @@
     "web-vitals": "1.1.2"
   },
   "devDependencies": {
+    "@craco/craco": "6.2.0",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "11.2.7",
     "@testing-library/user-event": "12.8.3",
+    "autoprefixer": "9.8.6",
     "cz-conventional-changelog": "3.3.0",
-    "react-scripts": "4.0.3"
+    "postcss": "7.0.36",
+    "react-scripts": "4.0.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.2.7"
   },
   "config": {
     "commitizen": {
